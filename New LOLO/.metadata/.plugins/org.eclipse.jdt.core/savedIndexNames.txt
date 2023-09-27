@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+C:\Users\USER\OneDrive\Área de Trabalho\New LOLO\.metadata\.plugins\org.eclipse.jdt.core
+3644129741.index
+3939481733.index
+2788710797.index
+1625306301.index
+4126085585.index
+2273477642.index
+1865797976.index

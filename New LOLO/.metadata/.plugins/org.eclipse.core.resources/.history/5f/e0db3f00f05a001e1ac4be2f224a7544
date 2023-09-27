@@ -1,0 +1,23 @@
+<%@ page import="DAO.ProdutoDAO" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Deletar Produto</title>
+</head>
+<body>
+    <%
+    String id_produto_deletarStr = request.getParameter("id_produto_deletar");
+    if (id_produto_deletarStr != null && !id_produto_deletarStr.isEmpty()) {
+        int id_produto = Integer.parseInt(id_produto_deletarStr);
+        // Resto do código aqui
+    } else {
+        %><h1>vazio</h1> 
+    }
+
+    
+    
+     
+</body>
+</html>

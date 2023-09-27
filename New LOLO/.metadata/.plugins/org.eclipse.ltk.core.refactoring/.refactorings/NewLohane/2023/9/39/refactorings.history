@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Deletar_Produto.jsp&apos; to &apos;Admin&apos;&#x0D;&#x0A;- Original project: &apos;NewLohane&apos;&#x0D;&#x0A;- Destination element: &apos;Admin&apos;&#x0D;&#x0A;- Original element: &apos;Deletar_Produto.jsp&apos;" description="Copy file" element1="WebContent/Carrinho_de_compras/Deletar_Produto.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695566507998" target="/NewLohane/WebContent/Admin" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+127.0.0.1 - - [26/Sep/2023:09:05:17 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:05:25 -0300] "GET /NewLohane/PG_Principal/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:05:26 -0300] "GET /NewLohane/PG_Principal/img%20logos/face.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:05:26 -0300] "GET /NewLohane/PG_Principal/img%20logos/wapp.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:05:26 -0300] "GET /favicon.ico HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:05:33 -0300] "GET /favicon.ico HTTP/1.1" 404 775
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:06:14 -0300] "GET /NewLohane/Admin/Lista_produtos.jsp HTTP/1.1" 200 15369
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:06:14 -0300] "GET /NewLohane/Admin/roupasSite/roup12.jpg HTTP/1.1" 200 609321
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:30 -0300] "POST /NewLohane/Cliente/Entrar.jsp HTTP/1.1" 200 791
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:30 -0300] "POST /NewLohane/Cliente/index.jsp HTTP/1.1" 200 16712
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:30 -0300] "GET /NewLohane/Cliente/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:30 -0300] "GET /NewLohane/Cliente/img%20logos/face.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:30 -0300] "GET /NewLohane/Cliente/img%20logos/wapp.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:44 -0300] "POST /NewLohane/Carrinho_de_compras/Cadastra_Produto.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:44 -0300] "GET /NewLohane/Carrinho_de_compras/Carrinho.jsp HTTP/1.1" 200 10990
+0:0:0:0:0:0:0:1 - - [26/Sep/2023:09:08:44 -0300] "GET /NewLohane/Carrinho_de_compras/ee.css HTTP/1.1" 304 -

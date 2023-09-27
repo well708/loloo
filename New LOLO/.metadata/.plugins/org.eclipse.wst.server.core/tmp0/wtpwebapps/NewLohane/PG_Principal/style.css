@@ -1,0 +1,336 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+   text-decoration: none;
+   list-style: none;
+   border: none;
+}
+
+body {
+   background:  #fbeee9;
+}
+
+.background {
+   background-image: url("roupaCapa/Capa1.1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center top;
+   width: 100%;
+   max-width: 100%;
+   height: 60vh;
+}
+
+header {
+   display: flex;
+   justify-content: space-around;
+
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   top: 0;
+   right: 0;
+   z-index: 1000;
+   position: fixed;
+   transition: all .35s ease;
+   background-color: #fff;
+
+   border-bottom:.2rem solid rgba(69, 69, 69, 0.2);
+}
+
+.logo {
+   font-style: italic;
+   font-weight: 500;
+   font-size: 1rem;
+}
+
+.cabeçalho-link {
+   display: flex;
+   gap: 3rem;
+}
+
+.cabeçalho-link a {
+   color: #111;
+   font-weight: 750;
+   transition: 0.35s;
+   display: block;  
+   padding: 16px;
+   
+}
+
+.cabeçalho-link a:hover {
+   background-color: #c8815f;
+   color: #fff;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 84px;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+  
+   border: 1px solid #ccc;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown-content a {
+   color: #111;
+   padding: 10px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {
+   background-color: #c8815f;
+   color: #fff;
+}
+
+.icon span {
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+.icon span:hover {
+   color: #c8815f;
+}
+
+.icon2 span {
+   font-size: 1.5rem;
+   cursor: pointer;
+}
+
+.icon2 span:hover {
+   color: #c8815f;
+}
+
+.Meio {
+   padding: 7rem 0 0 8.5rem;
+   line-height: 4rem;
+}
+
+.Meio h1 {
+   font-size: 43px;
+   line-height: 1.2;
+}
+
+.Meio p {
+   font-size: 1.4rem;
+   font-style: italic;
+   text-align: left;
+   color: black;
+   line-height: 1;
+}
+
+.Meio button {
+   background-color: #c8815f;
+   padding: 1rem 3rem 1rem 3rem;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.Meio button:hover {
+   background-color: #111;
+   transform: scaleY(1.2);
+}
+
+section {
+   padding-top: 7rem;
+}
+
+section h1 {
+   align-items: center;
+   text-align: center;
+   font-size: 2rem;
+}
+
+.container-card {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   padding-top: 2rem;
+}
+
+.cards img {
+   width: 300px;
+   height: auto;
+   transition: 0.35s ease;
+}
+
+.cards img:hover {
+   transform: scale(0.9) translateY(5px);
+   cursor: pointer;
+}
+
+.cta {
+   background: url("roupaCapa/capa5.jpg");
+   background-position: center;
+   background-size: cover;
+   height: 60vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+.text-cta {
+   padding-left: 5rem;
+}
+
+.text-cta h6 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 23px;
+   font-weight: 500;
+   margin-bottom: 14px;
+}
+
+.text-cta h4 {
+   font-size: 2.2rem;
+   line-height: 1.2;
+   margin-bottom: 30px; 
+}
+
+.text-cta a {
+   background-color: #c8815f;
+   padding: 1rem 3rem 1rem 3rem;
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+   transition: 0.3s;
+} 
+
+.text-cta a:hover {
+   background-color: #111;
+   transform: scaleY(1.2); 
+}
+
+.Sobre h4 {
+   font-family: 'Times New Roman';
+   font-style: italic;
+   font-size: 25px;
+   text-align: center;
+   color: #A0522D;
+}
+
+.Sobre p1 {
+   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+   font-size: 20px;
+   color: #111;
+   text-align: center;
+   vertical-align: middle;
+   margin-top: 1px;
+   font-weight: 500;
+}
+
+
+
+h2 {
+   text-align: center;
+   font-size: 10px;
+   font-family: arial;
+}
+
+.Contato {
+   display: flex;
+   gap: 5rem;
+   justify-content: space-around;
+   background-color: black;
+   padding: 8rem;
+   margin-top: 1.5rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+}
+
+.meio-contato h1 {
+   color: #c8815f;
+   font-size: 25px;
+   margin-bottom: 1.6rem;
+   text-align: left;
+}
+
+.meio-contato li a {
+   display: block;
+   color: #555;
+   font-weight: 600;
+   transition: 0.35s ease;
+}
+
+.logo-container {
+   display: flex;
+}
+
+.objetoslogo {
+   width: 40px;
+   border-radius: 10px; 
+   padding: 3px;
+}
+
+footer {
+   text-align: center;
+   background-color: #111;
+   color: #fff;
+}
+
+.container-roupas {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+   align-items: center;
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.container-roupas img {
+   margin: 6px;
+}
+
+.roupa {
+   background-color: #c8815f;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.roupa img {
+   width: 250px;
+   height: auto;
+   border-radius: 6px;
+}
+
+.preco-container {
+   margin-top: 4px;
+   margin-bottom: 4px;
+   display: inline-block;
+   background-color: #040100;
+   color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+   padding:8px;
+}
+
+.preco-container:hover {
+   font-size: 14px;
+}
+
+.material-symbols-outlined {
+   vertical-align: middle;
+}

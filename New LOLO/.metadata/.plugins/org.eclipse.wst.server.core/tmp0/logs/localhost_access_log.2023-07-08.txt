@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:16 -0300] "POST /NewLohane/Cliente/Alterar.jsp HTTP/1.1" 200 705
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:16 -0300] "POST /NewLohane/Cliente/index.jsp?conf=altera HTTP/1.1" 200 11596
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:40 -0300] "POST /NewLohane/Cliente/Alterar.jsp HTTP/1.1" 200 1323
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:40 -0300] "POST /NewLohane/Cliente/index.jsp?conf=existe HTTP/1.1" 200 11596
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:55 -0300] "POST /NewLohane/Cliente/Alterar.jsp HTTP/1.1" 200 704
+0:0:0:0:0:0:0:1 - - [08/Jul/2023:00:00:55 -0300] "POST /NewLohane/Cliente/index.jsp?conf=altera HTTP/1.1" 200 11593

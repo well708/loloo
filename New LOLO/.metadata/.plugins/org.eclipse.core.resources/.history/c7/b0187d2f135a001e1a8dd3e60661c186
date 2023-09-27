@@ -1,0 +1,53 @@
+<%@page import="DTO.UserDTO"%>
+<%@page import="DTO.ProdutoDTO"%>
+<%@page import="DAO.ProdutoDAO"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+ 
+
+
+<%
+String nome_produto = request.getParameter("nome_produto");
+String tamanho = request.getParameter("tam");
+double valor_portamanho =  Double.parseDouble(request.getParameter("preco"));
+double valor_padrao =  Double.parseDouble(request.getParameter("preco_padrao"));
+int quantidade = Integer.parseInt(request.getParameter("quantidade"));
+double preco = Double.parseDouble(request.getParameter("preco"));
+String imagem_url = request.getParameter("imagem_url");
+int id_usuario = Integer.parseInt(request.getParameter("id_usuario")); // ID do usuário associado ao produto
+
+boolean result = false;
+
+ProdutoDAO produtoDAO = new ProdutoDAO();
+
+ProdutoDTO novoProduto = new ProdutoDTO();
+novoProduto.setNome_produto(nome_produto);
+novoProduto.setTamanho(tamanho);
+novoProduto.setQuantidade(quantidade);
+novoProduto.setPreco(preco);
+novoProduto.setSub_total(valor_padrao);
+novoProduto.setImagem_url(imagem_url);
+
+// Crie um objeto UserDTO com o ID do usuário
+UserDTO usuario = new UserDTO();
+usuario.setId_user(id_usuario);
+novoProduto.setUsuario(usuario);
+
+result = produtoDAO.Cadastrar(novoProduto);
+
+if (result) {
+	response.sendRedirect("Carrinho.jsp?id_User ="+<%=%>);  
+} else {
+    // Ocorreu um erro durante o cadastro do produto
+    response.sendRedirect("pagina_de_erro.jsp?mensagem=erro_cadastro_produto");
+}
+%>
+
+
+
+</html>

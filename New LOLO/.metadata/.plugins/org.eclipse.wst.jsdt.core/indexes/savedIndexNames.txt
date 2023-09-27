@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\USER\OneDrive\Área de Trabalho\New LOLO\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4126085585.index
+4223331818.index
+2057367832.index
+4096633821.index
+264578564.index
+1869276235.index
