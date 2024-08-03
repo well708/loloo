@@ -14,14 +14,11 @@
         int id_usuario = Integer.parseInt(request.getParameter("id_User_quantidade"));
         int novaQuantidade = Integer.parseInt(request.getParameter("quantidade"));
        
-       
-     
         ProdutoDTO produtoAtualizado = new ProdutoDTO();
         
         produtoAtualizado.setId_produto(id_produto);
         produtoAtualizado.setQuantidade(novaQuantidade);
       
-
         UserDTO usuario = new UserDTO();
         
         usuario.setId_user(id_usuario);
