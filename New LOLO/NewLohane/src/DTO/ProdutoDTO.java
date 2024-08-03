@@ -8,7 +8,7 @@ public class ProdutoDTO {
     private String tamanho;
     private int quantidade;
     private double preco;
-	private double sub_total;
+    private double sub_total;
     private String imagem_url;
     private UserDTO usuario; // Referência ao usuário
 
